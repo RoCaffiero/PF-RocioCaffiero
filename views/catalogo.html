@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Catálogo</title>
+
+   <!-- Enlazar el archivo jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Enlazar los archivos JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Miley Cyrus Argentina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-column justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link active" area-current="page">
+                            Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./fotos.html" class="nav-link active" area-current="page">
+                            Fotos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./catalogo.html" class="nav-link active" area-current="page">
+                            Catalogo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./lollapalooza.html" class="nav-link active" area-current="page">
+                            Lollapalooza</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./unite.html" class="nav-link active" area-current="page">
+                            Unite</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar-->
+
+    <!--cards-->
+    <div id="album" class="container-fluid bg-secondary text-light">
+        <h2 class="text-center mb-5 display-4">La discografía completa de Miley</h2>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_01.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Endless Summer Vacation</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_02.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Plastic Hearts</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_03.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Younger Now</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_04.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Miley Cyrus-Dead Petz</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mt-2 col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_05.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Bangerz</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-2 col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_06.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Can't Be Tamed</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mt-2 col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_07.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Breakout</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-2 col-xs-12 col-md-3 col-mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../assets/img/Album_08.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Meet Miley Cyrus</h5>
+                        <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#miModal">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--cards-->
+
+
+
+
+    <!--Footer-->
+    <footer class="container-fluid bg-dark py-5 text-center text-light">
+        
+        <p>Esta página está creada con fines estudiantiles</p>
+        <hr>
+        <p>Miley Cyrus Argentina</p>
+        <i class="bi bi-facebook text-center text-light"></i>
+        <i class="bi bi-twitter text-center text-light"></i>
+        <i class="bi bi-youtube text-center text-light"></i>
+    </footer>
+
+    <!--Footer-->
+
+   <!-- Modal -->
+   <div class="modal fade bd-example-modal-lg" id="miModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Encabezado del modal -->
+        <div class="modal-header">
+          <h5 class="modal-title">Comprar Album</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        
+        <!-- Contenido del modal -->
+        <div class="modal-body">
+          <p>Te dirigirá a otra página</p>
+        </div>
+        
+        <!-- Pie del modal -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+</html>

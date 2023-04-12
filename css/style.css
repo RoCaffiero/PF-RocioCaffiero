@@ -1,4 +1,28 @@
-.img-album {
-    width: 100%;
-    height: 10rem;
+
+/* Estilo para el modal */
+
+  /* Estilo para el botón de cerrar */
+  .cerrar {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  /* Estilo para el botón de cerrar cuando se pasa el cursor por encima */
+  .cerrar:hover,
+  .cerrar:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.estiloImgCard{
+    width: 25rem;
+}
+
+.img-normalizada{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
 }

@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    
+        <!--CSS-->
+        <link rel="stylesheet" href="../css/style.css">
+    
+        <title>Miley Cyrus Argentina</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-
-    <!--CSS-->
-    <link rel="stylesheet" href="./css/style.css">
-
-    <title>Miley Cyrus Argentina</title>
-</head>
+    
+       <!-- Enlazar el archivo jQuery -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+      <!-- Enlazar los archivos JS de Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
 
 <body>
 
@@ -37,13 +43,13 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="./galeria.html" class="nav-link active" area-current="page">
-                            Galeria</a>
+                        <a href="./fotos.html" class="nav-link active" area-current="page">
+                            Fotos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="./album.html" class="nav-link active" area-current="page">
-                            Album</a>
+                        <a href="./catalogo.html" class="nav-link active" area-current="page">
+                            Catalogo</a>
                     </li>
 
                     <li class="nav-item">
@@ -67,15 +73,15 @@
           <label for="nombre">Nombre:</label>
           <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
         </div>
-        <div class="form-group">
+        <div class="form-group mt-2">
           <label for="correo">Correo electrónico:</label>
           <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
         </div>
-        <div class="form-group">
-          <label for="contrasena">Contraseña:</label>
-          <input type="password" class="form-control" id="contrasena" placeholder="Ingresa tu contraseña">
+        <div class="form-group mt-2">
+          <label for="telefono">Teléfono</label>
+          <input type="number" class="form-control" id="telefono" placeholder="Ingresa tu teléfono">
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary mt-2">Enviar</button>
       </form>
       <!--formulario-->
       
