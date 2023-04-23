@@ -1,28 +1,50 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@600&display=swap");
+/*Mixins*/
+nav {
+  font-family: "Poltawski Nowy", serif;
+}
+
+p {
+  font-family: "Poltawski Nowy", serif;
+}
 
 /* Estilo para el modal */
-
-  /* Estilo para el botón de cerrar */
-  .cerrar {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-
-  /* Estilo para el botón de cerrar cuando se pasa el cursor por encima */
-  .cerrar:hover,
-  .cerrar:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-.estiloImgCard{
-    width: 25rem;
+/* Estilo para el botón de cerrar */
+.cerrar {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.img-normalizada{
-	width: 400px;
-	height: 400px;
-	object-fit: cover;
+/* Estilo para el botón de cerrar cuando se pasa el cursor por encima */
+.cerrar:hover,
+.cerrar:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+.estiloImgCard {
+  width: 25rem;
+}
+
+.img-normalizada {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/*Animaciones*/
+img:hover {
+  transform: scale(1.1);
+}
+
+button:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
