@@ -22,23 +22,17 @@ p {
     @include pStyle()
 }
 
-/* Estilo para el modal */
+@mixin tittleStyle {
+  font-family: 'Poltawski Nowy', serif;
 
-  /* Estilo para el botón de cerrar */
-  .cerrar {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+}
 
-  /* Estilo para el botón de cerrar cuando se pasa el cursor por encima */
-  .cerrar:hover,
-  .cerrar:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+h1 {
+  @include tittleStyle()
+}
+
+
+
 
 .estiloImgCard{
     width: 25rem;
@@ -56,8 +50,12 @@ img:hover {
     transform: scale(1.1);
 }
 
-button:hover {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+.navbar {
+  .nav-item {
+    .nav-link {
+      &:hover {
+        color: paleturquoise; // Cambia el color de hover a tu preferencia
+      }
+    }
+  }
 }
